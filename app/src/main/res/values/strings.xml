@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EloMP</string>
+
+    <string name="title_players">Players</string>
+    <string name="title_rankings">Games</string>
+    <string name="title_ranking_detail">Leaderboard</string>
+    <string name="title_result_entry">Record Result</string>
+    <string name="title_total_ranking">Total Ranking</string>
+
+    <string name="btn_manage_players">Players</string>
+    <string name="btn_manage_rankings">Games</string>
+    <string name="btn_total_ranking">Total Ranking (all games)</string>
+
+    <string name="btn_add_player">Add player</string>
+    <string name="btn_add_ranking">Add game</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_record_result">Record result</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <string name="hint_player_name">Player name</string>
+    <string name="hint_ranking_name">Game name</string>
+
+    <string name="label_participants">Who played?</string>
+    <string name="label_winners">Who won? (tick all winners)</string>
+
+    <string name="empty_players">No players yet. Tap \"Add player\" to add your group.</string>
+    <string name="empty_rankings">No games yet. Tap \"Add game\" to create an Elo ranking.</string>
+    <string name="empty_entries">No results recorded yet for this game.</string>
+    <string name="empty_total">Add players and record some results first.</string>
+
+    <string name="error_need_two_players">You need at least 2 players in the app before recording a result.</string>
+    <string name="error_need_two_participants">Select at least 2 participants.</string>
+    <string name="error_need_one_winner">Select at least 1 winner.</string>
+    <string name="error_delete_player_has_history">Can\'t delete this player: they have recorded results. Delete those results first.</string>
+    <string name="error_empty_name">Name can\'t be empty.</string>
+
+    <string name="confirm_delete_entry">Delete this result? Ratings will be recalculated.</string>
+    <string name="confirm_delete_player">Delete this player?</string>
+
+    <string name="format_rank_row">%1$d. %2$s — %3$d</string>
+    <string name="format_entry_winners">Winners: %1$s</string>
+    <string name="format_entry_others">Others: %1$s</string>
+</resources>
